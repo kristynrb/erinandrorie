@@ -1,0 +1,93 @@
+/*
+ Theme Name:   Match Child
+ Theme URI:    http://example.com/match-child/
+ Description:  Match Child Theme
+ Author:       Kristyn Bryan
+ Author URI:   http://erinandrorie.xyz
+ Template:     Match
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  match-child
+*/
+
+
+@font-face {
+	font-family: Mardian;
+	src: url('fonts/MardianDemo.ttf');
+}
+
+* {
+	font-family: 'PT Serif', serif;
+}
+
+label {
+	font-family: 'PT Serif', serif;
+}
+
+h4 {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+}
+
+.site-title {
+	color: red;
+}
+
+.entry-title {
+	font-family: Mardian, Josefin Slab, 'Courier New', Courier, monospace;
+}
+
+/*color for page title*/
+a:visited {
+	/*color: red;*/
+	color: black;
+	font-size: 140%;
+}
+
+/*color for page title */
+a {
+	color: black;
+	font-size: 140%;
+}
+
+.sf-menu a {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+}
+
+
+/*.sf-menu a, .sf-menu a:visited {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+}*/
+
+
+/*color for footer*/
+.site-info {
+	background-color: #32373C !important;
+}
+
+.col-lg-8 {
+	width: 100%;
+}
+
+h2.site-title {
+	font-family: Mardian;
+	/*font-family: 'Parisienne', cursive;*/
+}
+ul {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+}
+
+li {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+}
